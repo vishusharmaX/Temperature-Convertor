@@ -65,3 +65,10 @@ form{
 #resultContainer{
     font-size: 25px;
 }
+
+@media only screen and (max-width: 400px) {
+    form{
+        width: 100%;
+    }
+
+}

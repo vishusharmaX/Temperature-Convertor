@@ -72,3 +72,9 @@ form{
     }
 
 }
+@media only screen and (min-width: 425px) {
+    form{
+        width: 88%;
+    }
+
+}

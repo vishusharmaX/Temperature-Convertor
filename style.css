@@ -66,15 +66,17 @@ form{
     font-size: 25px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 380px) {
     form{
         width: 100%;
+        max-width: 90%;
     }
 
 }
 @media only screen and (min-width: 425px) {
     form{
         width: 88%;
+        max-width: 90%;
     }
 
 }

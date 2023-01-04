@@ -6,7 +6,7 @@ const calculateTemp=()=>{
 //    const valueTemp=  temp_diff.options[TempScale.selectedIndex].value;
 //      console.log(valueTemp);
     const celToFah=(cel)=>{
-        let fahrenheit = Math.round((cel + 9/5)+32);
+        let fahrenheit = Math.round((cel*9/5)+32);
         return fahrenheit;
     }
     const fahToCel=(fehr)=>{
